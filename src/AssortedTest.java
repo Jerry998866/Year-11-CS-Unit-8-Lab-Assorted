@@ -134,7 +134,6 @@ class AssortedTest {
         assertTrue(listSortedOdd.get(listSortedOdd.size()-1) == 67);
 
         for (int i = 0; i < list.size(); i ++) {
-
             if (i%2 == 0) {
                 assertTrue(list.get(i) == listSortedOdd.get(i));
             }
