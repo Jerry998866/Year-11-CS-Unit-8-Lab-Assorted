@@ -271,53 +271,6 @@ public class Assorted {
      *              ["WEST", "WEST"]
      */
     public static List<String> wildWest(List<String> directions) {
-//        for (int i = 0; i<directions.size(); i++){
-//            if (directions.get(i).equals("NORTH")){
-//                if (directions.get(i+1).equals("SOUTH")) {
-//                    System.out.println(i);
-//                    System.out.println(directions);
-//                    directions.remove(i);
-//                    directions.remove("SOUTH");
-//                    i=0;
-//                    System.out.println(i);
-//                    System.out.println(directions);
-//                }
-//            }
-//            if (directions.get(i).equals("SOUTH")){
-//                if (directions.get(i+1).equals("NORTH")) {
-//                    System.out.println(i);
-//                    System.out.println(directions);
-//                    directions.remove(i);
-//                    directions.remove("NORTH");
-//                    i=0;
-//                    System.out.println(i);
-//                    System.out.println(directions);
-//
-//                }
-//            }
-//            if (directions.get(i).equals("EAST")){
-//                if (directions.get(i+1).equals("WEST")) {
-//                    System.out.println(i);
-//                    System.out.println(directions);
-//                    directions.remove(i);
-//                    directions.remove("WEST");
-//                    i=0;
-//                    System.out.println(i);
-//                    System.out.println(directions);
-//                }
-//            }
-//            if (directions.get(i).equals("WEST")){
-//                if (directions.get(i+1).equals("EAST")) {
-//                    System.out.println(i);
-//                    System.out.println(directions);
-//                    directions.remove(i);
-//                    directions.remove("EAST");
-//                    i=0;
-//                    System.out.println(i);
-//                    System.out.println(directions);
-//                }
-//            }
-//        }
         int i = 0;
         while (i < directions.size() - 1) {
             if (directions.get(i).equals("NORTH") && directions.get(i + 1).equals("SOUTH")) {
